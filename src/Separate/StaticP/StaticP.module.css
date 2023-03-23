@@ -1,0 +1,44 @@
+#StaticP{
+    display: flex;
+    background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+   
+}
+#profile{
+
+    width: 30%;
+}
+#static{
+    width: 70%;
+    height: 70%;
+}
+
+@media all and (max-width: 900px) and (min-width:200px) {
+   
+    #StaticP{
+        display: block;
+        
+    }
+    #static{
+        width: 100%;
+
+    }
+    #profile{
+        width: 100%;
+    }
+
+}
+@media all and (max-width: 1200px) and (min-width:900px) {
+   
+    #StaticP{
+        display: block;
+       
+    }
+    #static{
+        width: 100%;
+    
+    }
+    #profile{
+        width: 100%;
+    }
+
+}

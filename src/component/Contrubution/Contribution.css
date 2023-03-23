@@ -1,0 +1,26 @@
+#contribution img{
+    width: 70%;
+    border: 2px solid red;
+    margin-bottom:100px;
+}
+#contribution img:hover{
+    width: 80%;
+}
+#contribution p{
+   font-size: 35px;
+    text-decoration: underline;
+}
+@media all and (max-width: 900px) and (min-width:300px) {
+    /* Medium Screen Styles  */
+    #contribution img{
+        width: 70%;
+        border: 2px solid red;
+        margin-bottom:100px;
+    }
+    #contribution img:hover{
+        width: 80%;
+    }
+    #contribution p{
+       font-size: 15px;
+    }
+   }

@@ -1,0 +1,50 @@
+#SkillsP{
+  display: flex;
+  background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+ }
+#profile{
+  width: 30%;
+}
+#skill{
+  width: 70%;
+  
+}  
+
+@media all and (max-width: 900px) and (min-width:200px) {
+   
+  #SkillsP{
+      display: block;
+  }
+  
+  #skill{
+      width: 100%;
+      position: relative;
+    
+  }
+ 
+  #profile{
+      width: 100%;
+  }
+
+}
+@media all and (max-width: 1200px) and (min-width:900px) {
+   
+  #SkillsP{
+      display: block;
+  }
+  #skill{
+      width: 100%;
+      height: 70%;
+  }
+
+ 
+  #skill{
+      width: 100%;
+      position: relative;
+      top:380px;
+      /* background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+   */
+   
+    }
+
+}

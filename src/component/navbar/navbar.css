@@ -1,0 +1,25 @@
+#navbar{
+
+    display: flex;
+    justify-content: right;
+    background-color:rgb(6, 79, 99);
+    color: white;
+   
+}
+#navbar a{
+    margin:20px
+}
+@media all and (max-width: 900px) and (min-width:200px) {
+    /* Medium Screen Styles  */
+    #navbar{
+        justify-content: space-around;
+        padding:10px 0;
+       
+        
+       
+    }
+    #navbar a{
+        margin:0px;
+        font-size: 10px;
+    }
+}
