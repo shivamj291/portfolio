@@ -5,6 +5,9 @@
   margin-left: -100px;
  
 }
+#gmail{
+  cursor: pointer;
+}
 #font_heading h3{
     margin-right:260px;
     font-size:23px

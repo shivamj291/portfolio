@@ -27,11 +27,12 @@
 
 }
 @media all and (max-width: 1200px) and (min-width:900px) {
+    #AboutP{
+        display: block;
+    }
 
     #about{
         width: 100%;
-
-       
     }
 
     #profile{
@@ -39,3 +40,5 @@
     }
 
 }
+
+
