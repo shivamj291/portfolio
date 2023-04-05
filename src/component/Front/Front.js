@@ -71,7 +71,7 @@ function Front(){
 
 
                    </div>
-                   <div id="resume"><a href="shivam_jaiswal.pdf"><p>Resume</p></a></div>
+                   <div id="resume"><a href="shivam_jaiswal.pdf" target="_blank"><p>Resume</p></a></div>
 
                    
                    
