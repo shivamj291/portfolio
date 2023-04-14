@@ -28,8 +28,11 @@
 
  }
 #sh1{
-  text-decoration: underline;
-  padding:30px;
+  background: linear-gradient(120deg,#053570 33%,#09e7f3 46.19%, #1f153b 99.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  width: 90px;
+  margin:50px auto;
   
   
 }

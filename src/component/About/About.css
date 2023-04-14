@@ -45,8 +45,12 @@
     color:white ;
 }
 #obj{
- text-decoration: underline;
- margin: 40px;
+    background: linear-gradient(120deg,#053570 33%,#09e7f3 46.19%, #1f153b 99.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 230px;
+    margin:30px auto;
+    
 }
 @media all and (max-width: 900px) and (min-width:200px) {
     /* Medium Screen Styles  */
@@ -71,6 +75,6 @@
    #obj{
     text-decoration: underline;
     font-size:10px;
-    margin:20px
+
    }
    }

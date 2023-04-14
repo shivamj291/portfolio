@@ -8,6 +8,13 @@
    
 
 }
+#staticheading{
+    background: linear-gradient(120deg,#053570 33%,#09e7f3 46.19%, #1f153b 99.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width:100px;
+    margin:0px auto;
+}
 #staticimg:hover{
     transform: perspective(240px) rotateX(360deg);
     padding: 26px;

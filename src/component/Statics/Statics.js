@@ -15,7 +15,7 @@ function Static(){
     return(
         <div id="static"> 
            
-                <h1 style={{textDecoration:"underline"}}  >Statics</h1>
+                <h1 id='staticheading'>Statics</h1>
                 <div className="outer" data-AOS="fade-up">
                     <div className="inner">
                         <img src=" https://github-readme-streak-stats.herokuapp.com/?user=shivamj291&theme=dark&hide_border=false" id="staticimg2" width="70%"/>

@@ -23,14 +23,14 @@ import {
 } from "react-icons/md";
 function Front(){
     const[offset,setOffset]=useState();
-   
+   console.log(offset)
     useEffect(()=>{
         AOS.init()
        
      },[])
      const handleOffset = () => {
         setOffset(window.pageYOffset);
-      };
+    };
     
       useEffect(() => {
         window.addEventListener("scroll", handleOffset);
@@ -38,9 +38,8 @@ function Front(){
 
      const { hasCopied, onCopy, setValue } = useClipboard("");
     return(
-        <div id="Front" style={{ transform: `translateX(-${offset * 2.5}px)`,
-        opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,}}>
-            <div id="font_heading" >
+        <div id="Front">
+            <div id="font_heading"  style={{ transform: `translateX(-${offset * 2.5}px)`}}>
             <div id="hoverdiv">
             <img src="https://readme-typing-svg.herokuapp.com?+Daughter&amp;color=rgb(255, 255, 255)&amp;size=20&amp;lines=👋Hey!+It's+SHIVAM+JAISWAL!;Full+Stack-Web+Developer...👨🏻‍💻;" id="hoverpart"/>
                   
@@ -76,7 +75,8 @@ function Front(){
                    
                    
             </div>
-            <div id="image" >
+            <div id="image" style={{ transform: `translateX(-${offset * 2.5}px)`,
+       }}>
                   <img src="shivamHome.jpg"/>
             </div>
         </div>

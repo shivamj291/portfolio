@@ -1,17 +1,17 @@
-#contact{
-  width:70%;
-  height: 400px;
 
-  margin: 80px 50px 50px 50px;
-}
-#profile{
-    width: 30%;
-}
+
 #ContactP{
     
     display: flex;
-    background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
-   
+    background:rgb(13,174,219);
+    padding-top: 50px;
+  
+}
+#contactMe{
+width: 60%;
+}
+#loc{
+    width:40%
 }
 
 @media all and (max-width: 900px) and (min-width:200px) {
@@ -20,16 +20,17 @@
         display: block;
        
     }
-    #contact{
-        width: 70%;
+    #contactMe{
+        width: 80%;
     
  
         margin-bottom: 0;
+        margin:auto
     
     }
-    #profile{
+    #loc{
         width: 100%;
-
+        margin:auto
     }
 
 }
@@ -40,16 +41,16 @@
         display: block;
        
     }
-    #contact{
+    #contactMe{
         width: 70%;
    
-  
+        margin: auto;
         margin-bottom: 0;
     
     }
-    #profile{
-        width: 100%;
-
+    #loc{
+        width: 80%;
+        margin: auto;
     }
 
 }

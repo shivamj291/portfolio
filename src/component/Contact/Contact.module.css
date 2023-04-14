@@ -10,15 +10,17 @@
 #contact_Inner_div{
     margin:auto;
  }
- #contact_Inner_div h1{
+ #sech1{
    font-size:40px;
     color:grey;
 }
- #contact_Inner_div p{
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
-    text-decoration: underline;
+ #firh1{
+    background: linear-gradient(120deg,#053570 33%,#d0d6d6 46.19%, #1f153b 99.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: 180px;
+    margin:30px auto;
  }
 
 
@@ -39,15 +41,14 @@ font-size:20px
   #contact_Inner_div{
       margin:auto;
    }
-   #contact_Inner_div h1{
+   #sech1{
      font-size:10px;
       color:grey;
   }
-   #contact_Inner_div p{
+   #firh1{
       text-align: center;
       margin-top: 40px;
       font-size: 10px;
-      text-decoration: underline;
    }
   
   

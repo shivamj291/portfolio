@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
 
+  color:white;
+  width: 100%;
+  background-image: url(https://st.depositphotos.com/3008028/4643/i/450/depositphotos_46434211-stock-photo-royal-blue-background.jpg);
+  background-size: cover;
+}
+#root{
+   width: 100%;
+}
+
+html{
+  width: 100%;
+ 
 }
 
 code {

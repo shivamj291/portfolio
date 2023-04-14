@@ -4,8 +4,12 @@
   
 }
 #pheading{
-    font-size: 35px;
-    margin-bottom:"60px"
+    background: linear-gradient(120deg,#053570 33%,#09e7f3 46.19%, #1f153b 99.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 120px;
+    margin:30px auto;
+   
 }
 .pr{
     display: flex;
@@ -29,8 +33,8 @@
 }
 #inner_lovoda:hover{
     width: 100%;
-    transform: perspective(1200px) rotateY(-360deg);
-    transition:all 1s ease-in-out ;
+    transform: perspective(1200px) rotateY(0deg);
+    transition:all 1.5s ease-in-out ;
 }
 #inner_indiaMart{
     width: 100%;
@@ -42,9 +46,9 @@
 }
 #inner_indiaMart:hover{
     width: 100%;
-    transform: perspective(1200px) rotateY(-360deg);
+    transform: perspective(1200px) rotateY(0deg);
     margin-left: 0;
-    transition:all 1s ease-in-out ;
+    transition:all 1.5s ease-in-out ;
 }
 
 
@@ -70,22 +74,26 @@
 
 .text{
     text-align: left;
-  
+    font-family:sans-serif;
+}
+.btnanc:hover{
+  background-color: transparent;
+  border: 3px solid aqua;
+  color: aqua;
 }
 .indiamart_text{
     text-align: left;
+    font-size: 16px;
+    font-family:sans-serif;
    
 }
 .indiamart_text a,.text a{
     
-    color:aqua
+    color:aqua;
+   
+    text-decoration: none;
 }
-.indiamart_text p:hover{
-    color:blue
-}
-.text p:hover{
-    color:blue
-}
+
 @media all and (max-width: 700px) and (min-width:200px) {
     /* Medium Screen Styles  */
     #project{
@@ -128,9 +136,7 @@
     #text p,h1{
         font-size: 10px;
     }
-    #lovoda_text p:hover{
-        color:blue
-    }
+  
    
 }
 
